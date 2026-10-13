@@ -7,9 +7,21 @@
 ![Location](https://img.shields.io/badge/Chicago%2C%20IL-424242?style=for-the-badge&logo=googlemaps&logoColor=white)
 ![Open to work](https://img.shields.io/badge/Open%20to%20work-2EA043?style=for-the-badge)
 
-I study economics and data science at the University of Chicago, and I like problems where the data is messy, the stakes are real, and the answer has to hold up to someone asking "how do you know?"
+I graduated from the University of Chicago in 2026 with a double major in economics and data science, and I like problems where the data is messy, the stakes are real, and the answer has to hold up to someone asking "how do you know?"
 
-My work so far spans public-policy data, health outcomes, sports analytics, and the reliability of large language models: scraping and cleaning the data myself, building the models, and writing up what the numbers actually say.
+My work so far spans graph neural networks for particle physics, private credit and M&A modeling, building-energy analytics, public-policy data, health outcomes, sports analytics, and the reliability of large language models: scraping and cleaning the data myself, building the models, and writing up what the numbers actually say.
+
+---
+
+## Experience
+
+**Data Scientist, Fermilab** (via the UChicago Data Science Institute) · Sep 2025 – Mar 2026 — helped build NuGraph3, a multi-layer graph neural network for 3D neutrino reconstruction from LArTPC event data, extending decoder architectures in PyTorch to improve clustering and topology labeling.
+
+**Private Credit Analyst Intern, Eyre Street Capital** · Jun 2025 – Sep 2025 — stress-tested LBO and credit models for active and prospective deals during the launch of Fund II, with scenario modeling, sensitivity analysis, and collateral valuation.
+
+**Mergers and Acquisitions Intern, PPF Group** (Prague) · Aug 2024 – Sep 2024 — financial analysis and due diligence on acquisition targets, plus valuation models and transaction documents for senior management.
+
+**Data Science Intern, Mansueto Institute for Urban Innovation** · May 2024 – Aug 2024 — wrote code to evaluate the energy performance of UChicago buildings and built an energy calculator that optimizes usage by building type.
 
 ---
 
@@ -60,6 +72,8 @@ My work so far spans public-policy data, health outcomes, sports analytics, and 
 
 **Machine Learning & AI**
 
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Graph Neural Networks](https://img.shields.io/badge/Graph%20Neural%20Networks-EE4C2C?style=for-the-badge)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![LLMs](https://img.shields.io/badge/LLM%20Evaluation-412991?style=for-the-badge&logo=openai&logoColor=white)
 
@@ -91,10 +105,10 @@ My work so far spans public-policy data, health outcomes, sports analytics, and 
 
 ## Education
 
-**University of Chicago** — Economics & Data Science
+**University of Chicago** — Economics & Data Science, Class of 2026
 
 ---
 
 ## Get in touch
 
-Open to internships and full-time roles in data science, economics, and analytics, based in Chicago. The best way to reach me is [LinkedIn](https://www.linkedin.com/in/aidan-long-a830a8215/).
+Open to data science and machine learning roles, based in Chicago. The best way to reach me is [LinkedIn](https://www.linkedin.com/in/aidan-long-a830a8215/).
