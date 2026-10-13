@@ -1,4 +1,4 @@
-![Aidan Long - Economics & Data Science, University of Chicago](https://capsule-render.vercel.app/api?type=waving&color=0:800000,100:1B3A5C&height=180&section=header&text=Aidan%20Long&fontColor=ffffff&fontSize=52&desc=Economics%20%26%20Data%20Science%20%C2%B7%20University%20of%20Chicago&descAlignY=72&descSize=18)
+![Aidan Long - Economics & Data Science, University of Chicago](https://capsule-render.vercel.app/api?type=waving&color=0:800000,100:1B3A5C&height=220&section=header&text=Aidan%20Long&fontColor=ffffff&fontSize=52&fontAlignY=30&desc=Economics%20and%20Data%20Science%20%C2%B7%20University%20of%20Chicago&descAlignY=50&descSize=18)
 
 ### Economics & Data Science, University of Chicago | Turning messy real-world data into decisions
 
