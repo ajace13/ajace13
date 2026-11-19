@@ -1,115 +1,80 @@
-![Aidan Long - Economics & Data Science, University of Chicago](https://capsule-render.vercel.app/api?type=waving&color=0:800000,100:1B3A5C&height=220&section=header&text=Aidan%20Long&fontColor=ffffff&fontSize=52&fontAlignY=30&desc=Economics%20and%20Data%20Science%20%C2%B7%20University%20of%20Chicago&descAlignY=50&descSize=18)
+![Aidan Long - Applied AI and Data Science, University of Chicago](https://capsule-render.vercel.app/api?type=waving&color=0:800000,100:1B3A5C&height=220&section=header&text=Aidan%20Long&fontColor=ffffff&fontSize=52&fontAlignY=30&desc=Forward-Deployed%20AI%20Engineer%20%C2%B7%20MS%20Applied%20Data%20Science%2C%20UChicago&descAlignY=50&descSize=18)
 
-### MS Applied Data Science, University of Chicago | Turning messy real-world data into decisions
+### Forward-deployed AI engineer who builds with ML | MS Applied Data Science, University of Chicago (Dec 2027)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aidan%20Long-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aidan-long-a830a8215/)
-![UChicago](https://img.shields.io/badge/Economics%20%26%20Data%20Science-University%20of%20Chicago-800000?style=for-the-badge)
-![Location](https://img.shields.io/badge/Chicago%2C%20IL-424242?style=for-the-badge&logo=googlemaps&logoColor=white)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aidan%20Long-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aidanlong9/)
+![UChicago](https://img.shields.io/badge/MS%20Applied%20Data%20Science-University%20of%20Chicago-800000?style=for-the-badge)
+![Relocation](https://img.shields.io/badge/Open%20to%20relocation-NYC%20%C2%B7%20Chicago%20%C2%B7%20SF%20Bay%20Area-424242?style=for-the-badge&logo=googlemaps&logoColor=white)
 ![Open to work](https://img.shields.io/badge/Open%20to%20work-2EA043?style=for-the-badge)
 
-I'm a master's student in Applied Data Science at the University of Chicago (expected December 2027), where I also earned my BA in 2026 with a double major in economics and data science. I like problems where the data is messy, the stakes are real, and the answer has to hold up to someone asking "how do you know?"
+I like sitting with the people who have the problem, working out what they actually need, and shipping the AI tool that solves it. At Ten Ventra that meant agents and a pricing engine for a real estate client. At the UChicago Data Science Institute it meant graph neural network research for Fermilab. I want to keep doing customer-facing engineering where the hard part is ML. I'm finishing an MS in Applied Data Science at the University of Chicago (expected December 2027), after a BA there in economics and data science (2026).
 
-My work so far spans AI agents and real estate pricing models, graph neural networks for particle physics, private credit and M&A modeling, building-energy analytics, public-policy data, health outcomes, sports analytics, and the reliability of large language models: scraping and cleaning the data myself, building the models, and writing up what the numbers actually say.
+My economics background is the part most ML engineers don't have. I've modeled $113M of solar loans, analyzed building energy use, and trained models on a GPU cluster, so I can talk about power, capital and compute in the same conversation.
+
+---
+
+## Pinned work
+
+**[Snowflake MCP Server & Streamlit App](https://github.com/ajace13/snowflake-mcp-server-streamlit)** — plain-English questions over a Snowflake star schema, answered through four bounded, read-only tools instead of free-form SQL. Survives 23 adversarial questions (false premises, DROP TABLE injection, data it doesn't have); 76 tests in CI.
+
+**[RAG over SEC filings](https://github.com/ajace13/RAG-Financial-Reports)** — ask questions about 10-K/10-Q filings and get answers with verified, passage-level citations. Hybrid BM25 + vector search with a cross-encoder re-ranker nearly doubles Hit@10 over keyword search alone (0.25 to 0.49) on 125 FinanceBench questions; runs free on a local LLM.
+
+**[Cloud data engineering portfolio](https://github.com/ajace13/cloud-data-engineering-portfolio)** — one dataset across four platforms: Google Cloud SQL, a Snowflake star schema (57 of 57 reconciliation checks), the MCP server above, and a Databricks Delta lakehouse. Every project has a runnable demo and tests in CI.
+
+---
+
+## Contributed to
+
+**[NuGraph](https://github.com/nugraph/nugraph)** — Fermilab's graph neural networks for 3D neutrino reconstruction from LArTPC detector data. On a seven-member UChicago Data Science Institute team, I owned the instance-decoder changes for NuGraph3: the encoder initializes instance embeddings, every pass of the core message-passing loop refines them, and the decoder clusters detector hits into individual particles from the refined embeddings. Validation Rand score rose ~15% over a 0.474 baseline, and scaling training from 1 to 4 GPUs cut a run from 1.08 days to 5.4 hours. The changes are implemented in the current version of NuGraph3 ([PR #139](https://github.com/nugraph/nugraph/pull/139)).
 
 ---
 
 ## Experience
 
-**AI Engineer, Ten Ventra** (AI consulting and automation startup, remote) · May 2026 – Jul 2026 — engineered 8 data collectors and a pricing engine for off-market LA multifamily deals, combining hedonic regression (property random effects + spatial random walk) with Mahalanobis similarity search to estimate prices with confidence intervals; also built Claude Code agent skills that automate a real estate client's deal reports and shipped a FastAPI + Next.js geospatial tool that finds LA County lots with room for accessory dwelling units.
+**AI Engineer, Ten Ventra** (AI consulting and automation startup, remote) · May 2026 – Jul 2026 — engineered 8 data collectors and a pricing engine for off-market LA multifamily deals, pairing hedonic regression (property random effects + spatial random walk) with Mahalanobis similarity search to price deals with confidence intervals before due diligence; worked directly with a real estate client to turn their manual deal flow into Claude Code agent skills they run on demand; and shipped a FastAPI + Next.js geospatial tool that finds LA County lots with room for accessory dwelling units.
 
-**Data Scientist, Fermilab** (via the UChicago Data Science Institute) · Sep 2025 – Mar 2026 — helped build NuGraph3, a multi-layer graph neural network for 3D neutrino reconstruction from LArTPC event data, extending decoder architectures in PyTorch to improve clustering and topology labeling.
+**Student Researcher, UChicago Data Science Institute** (research for Fermilab, Batavia, IL) · Sep 2025 – Mar 2026 — extended NuGraph3, Fermilab's open-source PyTorch Geometric graph neural network for 3D neutrino reconstruction, moving instance embeddings into its core message-passing loop; validation Rand score rose ~15% over a 0.474 baseline, and scaling training from 1 to 4 GPUs cut a run from 1.08 days to 5.4 hours. Owned the instance-decoder changes on a seven-member team, now implemented in the current version of NuGraph3.
 
-**Private Credit Analyst Intern, Eyre Street Capital** · Jun 2025 – Sep 2025 — stress-tested LBO and credit models for active and prospective deals during the launch of Fund II, with scenario modeling, sensitivity analysis, and collateral valuation.
+**Investment Analyst Intern, Eyre Street Capital** · Jun 2025 – Sep 2025 — scenario, sensitivity and cash-flow models to structure and diligence $113M of senior secured solar loans.
 
-**Mergers and Acquisitions Intern, PPF Group** (Prague) · Aug 2024 – Sep 2024 — financial analysis and due diligence on acquisition targets, plus valuation models and transaction documents for senior management.
+**Data Analyst, Environmental Frontiers** (energy research lab) · May 2024 – Dec 2024 — Python data pipelines and an energy-savings optimization model across large, heterogeneous building-energy datasets.
 
-**Data Science Intern, Environmental Frontiers** (energy research lab, Mansueto Institute for Urban Innovation) · May 2024 – Dec 2024 — built Python data pipelines to evaluate the energy performance of UChicago buildings and an energy calculator that optimizes usage by building type.
-
----
-
-## Value delivered
-
-**Prices for off-market real estate, with error bars** — a pricing engine for LA multifamily deals that pairs hedonic regression with Mahalanobis similarity search, so every estimate comes with a confidence interval.
-
-**A complete, queryable UChicago course catalog** — wrote a scraper that pulls every course across every department (titles, numbers, instructors, prerequisites, equivalents, terms) into clean CSVs, plus a per-department table of unique offerings.
-
-**A risk-adjusted way to rank medications** — combined user ratings with side-effect severity, pregnancy category, and CSA scheduling into a custom scoring framework, showing where top-rated drugs carry hidden costs and which ones strike a better efficacy-risk balance.
-
-**A measured look at how AI handles misinformation** — benchmarked logistic regression and random forest classifiers against LLMs on five fake-news datasets, and probed where LLMs fail at judging and generating truthful content.
-
-**Playoff predictions from historical NBA data** — identified the stats most predictive of winning and built multiple predictor models to forecast which teams advance.
-
-**DataFest 2026** — competed in the ASA DataFest hackathon, delivering a customer-journey analysis with geospatial and interactive visualizations under a weekend deadline.
-
----
-
-## How I work
-
-| As an analyst | As a builder |
-| --- | --- |
-| Start from the question, then decide what data could actually answer it | Scrape, clean, and structure the data myself rather than waiting for a clean extract |
-| Frame results in economic terms: tradeoffs, incentives, and who bears the cost | Build and compare models (linear, tree-based, LLM) instead of trusting one |
-| Write up findings so a non-technical reader can act on them | Keep work reproducible in notebooks and version control |
-| Treat model failure modes as findings, not footnotes | Ship visualizations people can explore, not just static charts |
-
----
-
-## Domains
-
-![Economics](https://img.shields.io/badge/Economics-1B3A5C?style=for-the-badge)
-![Public Policy](https://img.shields.io/badge/Public%20Policy%20%26%20Crime%20Data-1B3A5C?style=for-the-badge)
-![Health](https://img.shields.io/badge/Health%20%26%20Pharma%20Analytics-1B3A5C?style=for-the-badge)
-![Sports Analytics](https://img.shields.io/badge/Sports%20Analytics-1B3A5C?style=for-the-badge)
-![AI Ethics](https://img.shields.io/badge/AI%20Ethics%20%26%20Misinformation-1B3A5C?style=for-the-badge)
-![Real Estate](https://img.shields.io/badge/Real%20Estate%20Pricing-1B3A5C?style=for-the-badge)
-![AI Agents](https://img.shields.io/badge/AI%20Agents%20%26%20Automation-1B3A5C?style=for-the-badge)
+**Investment Analyst Intern, PPF Group** (Prague) · Aug 2024 – Sep 2024 — Python web scrapers for cross-sector equity and fixed-income research; valuation-range analysis.
 
 ---
 
 ## Stack
 
-**Data & Analysis**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-
-**Machine Learning & AI**
+**ML & AI**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Graph Neural Networks](https://img.shields.io/badge/Graph%20Neural%20Networks-EE4C2C?style=for-the-badge)
+![PyG](https://img.shields.io/badge/PyTorch%20Geometric-3C2179?style=for-the-badge)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![LLMs](https://img.shields.io/badge/LLM%20Evaluation-412991?style=for-the-badge&logo=openai&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP%20%26%20Tool%20Use-412991?style=for-the-badge)
+![RAG](https://img.shields.io/badge/RAG%20%26%20Reranking-412991?style=for-the-badge)
 
-**Visualization & Tools**
+**Data & Systems**
 
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white)
-![Folium](https://img.shields.io/badge/Folium%20Maps-77B829?style=for-the-badge&logo=leaflet&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup%20Scraping-424242?style=for-the-badge&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
-## Selected work
+## Earlier projects
 
 **[DataFest 2026 Hackathon](https://github.com/ajace13/datafest2026-hackathon)** — customer-journey analysis with outlier detection and interactive geospatial plots, built in a weekend.
 
 **[Data Ethics: Misinformation & LLMs](https://github.com/ajace13/Data-Ethics-Misinformation-Project)** — ML vs. LLM fake-news detection across five datasets, plus LLM bias testing against the BBQ benchmark.
 
-**[Drug Performance Research](https://github.com/ajace13/Drug-Performance-Research-Project)** — a side-effect-severity scoring framework that ranks treatments on both satisfaction and risk.
-
-**[NBA Historical Playoff Stats Predictor](https://github.com/ajace13/NBA-Historical-Playoff-Stats-Predictor)** — finds the stats that decide playoff games and forecasts series winners.
-
-**[UChicago Course Catalog Webscraper](https://github.com/ajace13/Course-Catelog-Webscraper)** — the entire university catalog, scraped and structured into analysis-ready CSVs.
-
-**[Crime Victimization Survey](https://github.com/ajace13/Crime-Victimization-Survey)** — exploratory analysis and visuals on the National Crime Victimization Survey.
+**[UChicago Course Catalog Webscraper](https://github.com/ajace13/Course-Catelog-Webscraper)** — every course in the university catalog, scraped into analysis-ready CSVs.
 
 ---
 
@@ -117,10 +82,10 @@ My work so far spans AI agents and real estate pricing models, graph neural netw
 
 **University of Chicago** — MS in Applied Data Science, expected December 2027
 
-**University of Chicago** — BA in Economics & Data Science, 2026
+**University of Chicago** — BA in Data Science & Economics (double major), 2026
 
 ---
 
 ## Get in touch
 
-Open to data science, machine learning and AI engineering roles, based in Chicago. The best way to reach me is [LinkedIn](https://www.linkedin.com/in/aidan-long-a830a8215/).
+Open to new-grad roles in forward-deployed and applied AI engineering first, then ML engineering and data science, and to relocating to New York, the SF Bay Area or staying in Chicago. The best way to reach me is [LinkedIn](https://www.linkedin.com/in/aidanlong9/).
