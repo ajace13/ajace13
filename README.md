@@ -74,7 +74,7 @@ My economics background is the part most ML engineers don't have. I've modeled $
 
 **[Data Ethics: Misinformation & LLMs](https://github.com/ajace13/Data-Ethics-Misinformation-Project)** — ML vs. LLM fake-news detection across five datasets, plus LLM bias testing against the BBQ benchmark.
 
-**[UChicago Course Catalog Webscraper](https://github.com/ajace13/Course-Catelog-Webscraper)** — every course in the university catalog, scraped into analysis-ready CSVs.
+**[UChicago Course Catalog Webscraper](https://github.com/ajace13/Course-Catalog-Webscraper)** — every course in the university catalog, scraped into analysis-ready CSVs.
 
 ---
 
